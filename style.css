@@ -1,0 +1,41 @@
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:15px 40px;
+    background:#111;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:24px;
+    color:#ff3c3c;
+    font-weight:bold;
+}
+
+.nav-links{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#ff3c3c;
+}
+
+.search-input{
+    padding:6px 12px;
+    border:none;
+    border-radius:20px;
+    outline:none;
+    background:#222;
+    color:white;
+}
