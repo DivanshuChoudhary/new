@@ -53,3 +53,16 @@ wishlistButtons.forEach(button => {
     });
 
 });
+
+window.addEventListener("load", () => {
+
+    const loader = document.getElementById("loader");
+
+    loader.style.opacity = "0";
+    loader.style.transition = "0.5s";
+
+    setTimeout(() => {
+        loader.style.display = "none";
+    }, 500);
+
+});
