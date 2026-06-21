@@ -33,3 +33,23 @@ scrollBtn.addEventListener("click", () => {
     });
 
 });
+
+const wishlistButtons = document.querySelectorAll(".wishlist-btn");
+
+wishlistButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        if(button.textContent === "♡"){
+            button.textContent = "♥";
+            button.style.color = "#fff";
+            button.style.background = "#e50914";
+        }else{
+            button.textContent = "♡";
+            button.style.color = "#e50914";
+            button.style.background = "#fff";
+        }
+
+    });
+
+});
