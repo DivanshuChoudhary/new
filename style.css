@@ -122,3 +122,42 @@
 }
     border-radius:5px;
 }
+
+/* Category Section */
+
+.categories{
+    padding:60px;
+    text-align:center;
+    background:#181818;
+}
+
+.categories h2{
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+.category-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.category-card{
+    width:220px;
+    padding:35px 20px;
+    background:#242424;
+    border-radius:12px;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.category-card h3{
+    color:white;
+    font-size:22px;
+}
+
+.category-card:hover{
+    transform:translateY(-8px);
+    background:#e50914;
+}
