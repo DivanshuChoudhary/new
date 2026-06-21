@@ -545,3 +545,53 @@
     transform:scale(1.1);
     background:#ff2735;
 }
+/* Promotional Offer Banner */
+
+.offer-banner{
+    padding:70px 60px;
+    background:linear-gradient(135deg,#e50914,#b20710);
+    margin:50px 60px;
+    border-radius:18px;
+    text-align:center;
+}
+
+.offer-tag{
+    display:inline-block;
+    background:#ffffff;
+    color:#e50914;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.offer-content h2{
+    font-size:42px;
+    margin-bottom:15px;
+    color:#fff;
+}
+
+.offer-content p{
+    max-width:650px;
+    margin:0 auto 25px;
+    color:#f5f5f5;
+    line-height:1.6;
+}
+
+.offer-btn{
+    padding:14px 32px;
+    border:none;
+    border-radius:8px;
+    background:#fff;
+    color:#e50914;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.offer-btn:hover{
+    transform:translateY(-3px);
+    background:#f2f2f2;
+}
