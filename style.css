@@ -668,3 +668,133 @@
     }
 
 }
+
+/* ===========================
+   RESPONSIVE DESIGN
+=========================== */
+
+/* Tablet */
+
+@media (max-width:992px){
+
+    .navbar{
+        padding:15px 25px;
+        flex-wrap:wrap;
+        gap:15px;
+    }
+
+    .nav-links{
+        gap:15px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero{
+        padding:40px;
+        text-align:center;
+        justify-content:center;
+    }
+
+    .hero-content{
+        max-width:100%;
+    }
+
+    .hero h1{
+        font-size:42px;
+    }
+
+    .product-grid,
+    .featured-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .contact-container{
+        flex-direction:column;
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        padding:20px;
+    }
+
+    .logo{
+        margin-bottom:15px;
+    }
+
+    .nav-links{
+        flex-direction:column;
+        align-items:center;
+        gap:12px;
+    }
+
+    .search-input{
+        width:100%;
+        max-width:300px;
+    }
+
+    .hero{
+        height:auto;
+        padding:60px 20px;
+    }
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero p{
+        font-size:15px;
+    }
+
+    .product-grid,
+    .featured-grid{
+        grid-template-columns:1fr;
+    }
+
+    .category-container,
+    .testimonial-container,
+    .brand-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .newsletter-form{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .newsletter-form input,
+    .newsletter-form button{
+        width:100%;
+        max-width:320px;
+    }
+
+    .footer-links{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+}
+
+/* Small Mobile */
+
+@media (max-width:480px){
+
+    .hero h1{
+        font-size:28px;
+    }
+
+    h2{
+        font-size:26px;
+    }
+
+    .offer-content h2{
+        font-size:30px;
+    }
+
+}
