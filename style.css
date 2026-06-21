@@ -279,3 +279,64 @@
 .testimonial-card span{
     font-size:20px;
 }
+
+/* Newsletter Section */
+
+.newsletter{
+    padding:80px 60px;
+    background:linear-gradient(135deg,#0f0f0f,#1f1f1f);
+    text-align:center;
+}
+
+.newsletter-content{
+    max-width:700px;
+    margin:auto;
+}
+
+.newsletter h2{
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.newsletter p{
+    color:#bdbdbd;
+    margin-bottom:30px;
+    line-height:1.6;
+}
+
+.newsletter-form{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.newsletter-form input{
+    width:320px;
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    background:#2a2a2a;
+    color:white;
+    font-size:16px;
+}
+
+.newsletter-form input:focus{
+    outline:2px solid #e50914;
+}
+
+.newsletter-form button{
+    padding:15px 30px;
+    border:none;
+    border-radius:8px;
+    background:#e50914;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+    font-size:16px;
+}
+
+.newsletter-form button:hover{
+    background:#ff2c39;
+    transform:translateY(-2px);
+}
