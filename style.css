@@ -115,12 +115,21 @@
     background:#e50914;
     color:white;
     cursor:pointer;
-    .cart{
+    border-radius:5px;
+}
+
+.cart{
     color:white;
     font-size:16px;
     cursor:pointer;
 }
-    border-radius:5px;
+
+.cart{
+    color:white;
+    font-size:16px;
+    padding:5px 10px;
+    background:#222;
+    border-radius:20px;
 }
 
 /* Category Section */
@@ -545,6 +554,7 @@
     transform:scale(1.1);
     background:#ff2735;
 }
+
 /* Promotional Offer Banner */
 
 .offer-banner{
@@ -873,3 +883,5 @@ button:hover{
     }
 
 }
+
+
