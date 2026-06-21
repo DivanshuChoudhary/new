@@ -231,3 +231,51 @@
 .featured-card button:hover{
     background:#ff2735;
 }
+
+/* Testimonials */
+
+.testimonials{
+    padding:70px 60px;
+    background:#181818;
+    text-align:center;
+}
+
+.testimonials h2{
+    font-size:34px;
+    margin-bottom:40px;
+}
+
+.testimonial-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.testimonial-card{
+    width:320px;
+    background:#252525;
+    padding:30px;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.4);
+}
+
+.testimonial-card p{
+    color:#ddd;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.testimonial-card h4{
+    color:#fff;
+    margin-bottom:10px;
+}
+
+.testimonial-card span{
+    font-size:20px;
+}
